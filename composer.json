@@ -1,0 +1,38 @@
+{
+  "name": "abdullahpazarbasi/doctrine-extension-tree",
+  "homepage": "https://github.com/abdullahpazarbasi/doctrine-extension-tree",
+  "description": "doctrine-extension-tree",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Abdullah Pazarbasi",
+      "email": "mail@abdullahpazarbasi.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "gedmo/doctrine-extensions": "^2.4",
+    "doctrine/orm": "2.5.*",
+    "symfony/yaml": "4.4.*",
+    "phpunit/phpunit": "^7.5",
+    "ramsey/uuid": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DoctrineExtensionTree\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DoctrineExtensionTree\\Test\\": "tests/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin",
+    "cache-files-ttl": 0,
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable"
+}
